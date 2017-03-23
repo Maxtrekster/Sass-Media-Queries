@@ -1,0 +1,6 @@
+/*Material design breakpoints */
+$xsmall:    480px;
+$small:     840px;
+$medium:    1280px;
+$large:     1600px;
+$xlarge:    1920px;
