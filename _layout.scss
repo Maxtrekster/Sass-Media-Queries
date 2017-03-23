@@ -1,0 +1,28 @@
+div{
+    width: 100%;
+    height: 280px;
+}
+
+.background {
+    background-color: aqua;
+
+    @include breakpoint(xsmall) {
+        background-color: blue;
+    }
+
+    @include breakpoint(small) {
+        background-color: yellow;
+    }
+
+    @include breakpoint(medium) {
+        background-color: red;
+    }
+
+    @include breakpoint(large) {
+        background-color: green;
+    }
+
+    @include breakpoint(xlarge) {
+        background-color: darkmagenta;
+    }
+}
